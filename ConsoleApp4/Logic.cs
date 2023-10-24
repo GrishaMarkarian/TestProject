@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4
 {
-    internal class Logic
+    public static class Logic
     {
-        public int PowerOf2(int a)
+        public static int PowerOf(int a)
         {
             return a * a;
         }
